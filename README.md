@@ -129,6 +129,10 @@ vendor-performance-analysis/
 ```bash
 git clone https://github.com/yourusername/vendor-performance-analysis.git
 ```
+2. Create a new folder named logs:
+```bash
+create new folder 'logs' in local repository (local machine)
+```
 3. Load the CSVs and ingest into database:
 ```bash
 python scripts/ingestion_db.py
